@@ -19,7 +19,7 @@ function DropdownItem({ item }) {
 }
 
 DropdownItem.propTypes = {
-	item: PropTypes.string,
+	item: PropTypes.string.isRequired,
 };
 
 export default DropdownItem;
