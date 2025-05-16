@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function DropdownItem({ item }) {
 	return (
 		<li>
@@ -15,5 +17,9 @@ function DropdownItem({ item }) {
 		</li>
 	);
 }
+
+DropdownItem.propTypes = {
+	item: PropTypes.string,
+};
 
 export default DropdownItem;

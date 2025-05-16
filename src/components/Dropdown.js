@@ -2,7 +2,7 @@ import DropdownList from './DropdownList';
 import { useState } from 'react';
 
 function Dropdown() {
-	const [open, setOpen] = useState(false);
+	const [open, setOpen] = useState(true);
 
 	function toggleOpen(event) {
 		event.preventDefault();
